@@ -18,7 +18,7 @@ Para facilitar o uso do repositório, inclua um script simples de automação:
 Exemplo de Script de Deploy (scripts/deploy.sh)
 Este script usará o AWS CLI para criar ou atualizar o Stack principal:
 
-''' Bash
+```Bash
 
 #!/bin/bash
 
