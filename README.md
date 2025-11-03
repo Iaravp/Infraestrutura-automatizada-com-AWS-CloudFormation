@@ -46,7 +46,8 @@ aws cloudformation deploy \
 if [ $? -eq 0 ]; then
     echo "Deploy concluído com sucesso!"
 else
-    echo "Erro no deploy. Verifique o console do CloudFormation para detalhes."```
+    echo "Erro no deploy. Verifique o console do CloudFormation para detalhes."
 fi
+---
 Nota: Você precisará do jq para processar o arquivo de parâmetros JSON de forma mais limpa.
 
